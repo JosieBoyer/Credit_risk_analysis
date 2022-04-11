@@ -4,6 +4,7 @@ Credit risk is an inherently unbalanced classification problem, as there are man
 
 First, I oversampled the data using the RandomOverSampler and SMOTE algorithms. Second, I undersampled the data using the ClusterCentroids algorithm. Then, I used a combination approach of over and undersampling using the SMOTEENN algorithm. Finally, I tested and compared two new machine learning models that reduce bias,BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk
 
+
 ## Results
 
 ![](https://github.com/JosieBoyer/Credit_risk_analysis/blob/main/NRO.PNG) had a balanced score of 65.7%
